@@ -1,0 +1,55 @@
+{
+  "name": "isz-secrets-mgmt-module",
+  "version": "1.0.9",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "@libre/atom": "*",
+    "@mui/icons-material": "*",
+    "@mui/material": "*",
+    "history": "*",
+    "isz-app": "*",
+    "path-to-regexp": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "reactstrap": "*",
+    "tslib": "*"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "isz-app": "file:../isz-app/dist/emulator/isz-app-1.0.1.tgz",
+    "piral-cli": "^0.15.1",
+    "piral-cli-vite": "0.15.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router": "5.3.4",
+    "react-router-dom": "5.3.4",
+    "tslib": "2.4.1",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "source": "src/index.tsx",
+  "importmap": {
+    "imports": {},
+    "inherit": [
+      "isz-app"
+    ]
+  }
+}

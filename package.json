@@ -1,6 +1,6 @@
 {
   "name": "isz-secrets-mgmt-module",
-  "version": "1.0.9",
+  "version": "1.0.17",
   "description": "",
   "keywords": [
     "pilet"
@@ -26,7 +26,7 @@
     "@types/node": "latest",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "isz-app": "file:../isz-app/dist/emulator/isz-app-1.0.1.tgz",
+    "isz-app": "file:../isz-app/dist/emulator/isz-app-1.0.3.tgz",
     "piral-cli": "^0.15.1",
     "piral-cli-vite": "0.15.1",
     "react": "18.2.0",

@@ -2,16 +2,12 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import type { PiletApi } from 'isz-app';
 import { ListItemButton, ListItemText, ListItemIcon } from '@mui/material';
-import { AppRegistration, Dns, MonitorHeart, Key } from '@mui/icons-material';
+import { Key } from '@mui/icons-material';
 
 const SecretsMgmt = React.lazy(() => import('./SecretsMgmt'));
 
 export function setup(app: PiletApi) {
   app.registerPage('/secrets-mgmt', SecretsMgmt);
-
-  app.showNotification('Hello from Secrets Management!', {
-    autoClose: 2000,
-  });
   app.registerMenu(() =>
     <ListItemButton
       component={Link}
@@ -29,7 +25,7 @@ export function setup(app: PiletApi) {
           justifyContent: 'center',
         }}
         onClick={(event) => {
-          <SecretsMgmt />
+          <SecretsMgmt meta={undefined} children={''} piral={app} />
         }}
       >
         <Key />

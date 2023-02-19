@@ -1,0 +1,70 @@
+
+.MuiDataGrid-columnHeader {
+    &:focus {
+        outline: none !important;
+    }
+}
+
+.MuiDataGrid-cell {
+    &:focus {
+        outline: none !important;
+    }
+}
+
+.ag-root-wrapper {
+    border: none !important;
+}
+
+.top-level {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: 'background.paper';
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    overflow: hidden;
+}
+
+.ag-theme-alpine-dark {
+    --ag-alpine-active-color: #42424233;
+    --ag-header-background-color: #1e1e1e !important;
+    --ag-odd-row-background-color: #1e1e1e !important;
+    --ag-background-color: #212121 !important;
+    --ag-foreground-color: #42424233;
+
+    --ag-input-focus-border-color: #42424233 !important;
+    --ag-range-selection-background-color: #42424233 !important;
+    --ag-range-selection-background-color-2: #42424233 !important;
+    --ag-range-selection-background-color-3: #42424233 !important;
+    --ag-range-selection-background-color-4: #42424233 !important;
+    --ag-input-focus-box-shadow: #42424233 !important;
+    --ag-alpine-active-color: #42424233 !important;
+    --ag-selected-row-background-color: #a3a3a333 !important;
+    --ag-modal-overlay-background-color: #42424233 !important;
+    --ag-header-background-color: #42424233 !important;
+    --ag-odd-row-background-color: #42424233 !important;
+    --ag-control-panel-background-color: #42424233 !important;
+    --ag-subheader-background-color: #000;
+    --ag-input-disabled-background-color: #42424233 !important;
+
+    --ag-chip-background-color: #42424233 !important;
+    --ag-input-disabled-border-color: #42424233 !important;
+    --ag-input-disabled-background-color: #42424233 !important;
+
+    --ag-row-hover-color: #6d6d6d33 !important;
+    --ag-column-hover-color: #42424233 !important;
+    --ag-input-focus-border-color: #42424233 !important;
+
+    .ag-checkbox-input-wrapper.ag-checked::after {
+        content: var(--ag-icon-font-code-checkbox-checked, "\f106");
+        color: #FFF;
+        position: absolute;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+      }
+}

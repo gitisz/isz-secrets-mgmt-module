@@ -1,0 +1,82 @@
+[
+  {
+    "accessType": "EC2",
+    "vaultRole": "16648d4b-66c1-4256-9f93-71f435a8fc98",
+    "resourceName": "arn:aws:iam::123456789:/role/AWS-NORTH-ROLE-1-EC2",
+    "accessid": "92509",
+    "lockboxId": "3283e6c1-BE41-44EB-AB64-31c1a55b279f",
+    "permissions": [
+      "read"
+    ]
+  },
+  {
+    "accessType": "LDAP",
+    "vaultRole": "2ec1dc0f-f6a2-4f38-8502-6188b1c63aa1",
+    "resourceName": "NORTH_ACTIVE_DIRECTORY_GROUP",
+    "accessid": "70010",
+    "lockboxId": "3283e6c1-BE41-44EB-AB64-31c1a55b279f",
+    "permissions": [
+      "read"
+    ]
+  },
+  {
+    "accessType": "IAM",
+    "vaultRole": "2fcff032-e7ee-40f9-8ddd-397c7f03f328",
+    "resourceName": "arn:aws:iam::123456789:/role/AWS-NORTH-ROLE-SPR-ECS-TASK",
+    "accessid": "92930",
+    "lockboxId": "3283e6c1-BE41-44EB-AB64-31c1a55b279f",
+    "permissions": [
+      "read"
+    ]
+  },
+  {
+    "accessType": "IAM",
+    "vaultRole": "033c43ec-d10b-4e06-82e7-f4d81a2db230",
+    "resourceName": "arn:aws:iam::123456789:/role/AWS-NORTH-ROLE-SPR-LAMBDA",
+    "accessid": "45798",
+    "lockboxId": "3283e6c1-BE41-44EB-AB64-31c1a55b279f",
+    "permissions": [
+      "read"
+    ]
+  },
+  {
+    "accessType": "EC2",
+    "vaultRole": "5c9804ca-a984-4aa0-8aa0-45fd1ad5bb1d",
+    "resourceName": "arn:aws:iam::123456789:/role/AWS-NORTH-ROLE-2-EC2",
+    "accessid": "64506",
+    "lockboxId": "3283e6c1-BE41-44EB-AB64-31c1a55b279f",
+    "permissions": [
+      "read"
+    ]
+  },
+  {
+    "accessType": "APPROLE",
+    "vaultRole": "6bc61706-b27d-4ffc-b1ad-44b784ff82a8",
+    "resourceName": "ea345284-fe9f-4c58-a953-2e2533e50e84",
+    "accessid": "45365",
+    "lockboxId": "3283e6c1-BE41-44EB-AB64-31c1a55b279f",
+    "permissions": [
+      "read"
+    ]
+  },
+  {
+    "accessType": "IAM",
+    "vaultRole": "cc532eb0-8349-4c82-86dd-85329756551f",
+    "resourceName": "arn:aws:iam::123456789:/role/AWS-NORTH-ROLE-SPR-S3",
+    "accessid": "48544",
+    "lockboxId": "3283e6c1-BE41-44EB-AB64-31c1a55b279f",
+    "permissions": [
+      "read"
+    ]
+  },
+  {
+    "accessType": "IAM",
+    "vaultRole": "10e5a155-a129-42b0-998f-246845ec2326",
+    "resourceName": "arn:aws:iam::123456789:/role/AWS-NORTH-ROLE-SPR-RDS",
+    "accessid": "19968",
+    "lockboxId": "3283e6c1-BE41-44EB-AB64-31c1a55b279f",
+    "permissions": [
+      "read"
+    ]
+  }
+]

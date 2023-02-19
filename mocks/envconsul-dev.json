@@ -1,0 +1,57 @@
+{
+  "vault": {
+    "renew_token": false,
+    "ssl": {
+      "enabled": true,
+      "verify": true
+    }
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprhousegreyjoy/db-username",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprhousegreyjoy/db-password",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprhousegreyjoy/cicd-user",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprhousegreyjoy/cicd-password",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprhousegreyjoy/exchange-clint-id",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprhousegreyjoy/exchange-clint-secret",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprtheironislands/db-username",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprtheironislands/db-password",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprtheironislands/cicd-user",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprtheironislands/cicd-password",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprtheironislands/exchange-clint-id",
+    "no_prefix": true
+  },
+  "secret": {
+    "path": "2a91a432-3733-4ff7-a9f3-0716c8b964a9/asvtheironislands/bapprtheironislands/exchange-clint-secret",
+    "no_prefix": true
+  }
+}

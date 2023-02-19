@@ -10,11 +10,12 @@
     "sourceMap": true,
     "outDir": "./dist",
     "skipLibCheck": true,
-    "lib": ["dom", "es2018"],
+    "lib": ["dom", "es2021"],
     "moduleResolution": "node",
     "module": "esnext",
     "jsx": "react",
-    "importHelpers": true
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "./src"

@@ -1,0 +1,128 @@
+[
+  {
+    "application": "ASVTHENORTH",
+    "name": "Stark",
+    "environment": "dev",
+    "lockboxId": "3283e6c1-be41-44eb-ab64-31c1a55b279f",
+    "ownerContact": {
+      "eid": "EDS983",
+      "emailAddress": "eddard.stark@kingofthenorth.com"
+    },
+    "components": [
+      "BAPPRTHENORTH",
+      "BAPPRHOUSESTARK"
+    ]
+  },
+  {
+    "application": "ASVTHEVALE",
+    "name": "Arryn",
+    "environment": "dev",
+    "lockboxId": "6d3db819-2150-4c3c-8419-825df8ed8337",
+    "ownerContact": {
+      "eid": "JON465",
+      "emailAddress": "jon.arryn@housearryn.com"
+    },
+    "components": [
+      "BAPPRTHEVALE",
+      "BAPPRHOUSEARRYN"
+    ]
+  },
+  {
+    "application": "ASVTHEIRONISLANDS",
+    "name": "Greyjoy",
+    "environment": "dev",
+    "lockboxId": "2a91a432-3733-4ff7-a9f3-0716c8b964a9",
+    "ownerContact": {
+      "eid": "TEO825",
+      "emailAddress": "theon.greyjoy@theironislands.com"
+    },
+    "components": [
+      "BAPPRTHEIRONISLANDS",
+      "BAPPRHOUSEGREYJOY"
+    ]
+  },
+  {
+    "application": "ASVTHERIVERLANDS",
+    "name": "Tully",
+    "environment": "dev",
+    "lockboxId": "aa18ebc1-a60e-4c18-a27b-8d537487faef",
+    "ownerContact": {
+      "eid": "TUL735",
+      "emailAddress": "tully@theriverlands.com"
+    },
+    "components": [
+      "BAPPRTHERIVERLANDS",
+      "BAPPRHOUSETULLY"
+    ]
+  },
+  {
+    "application": "ASVTHEWESTERLANDS",
+    "name": "Lannister",
+    "environment": "dev",
+    "lockboxId": "b3bbc346-5b90-4e7d-88a9-544bb6f8eda2",
+    "ownerContact": {
+      "eid": "JME765",
+      "emailAddress": "jaime.lannister@kingslayer.com"
+    },
+    "components": [
+      "BAPPRTHEWESTERLANDS",
+      "BAPPRHOUSELANISTER"
+    ]
+  },
+  {
+    "application": "ASVTHESTORMLANDS",
+    "name": "Baratheon",
+    "environment": "dev",
+    "lockboxId": "7b3762ea-e12b-4872-b482-3daffc3b51c1",
+    "ownerContact": {
+      "eid": "ROB219",
+      "emailAddress": "robert.bartheon@thestormlands.com"
+    },
+    "components": [
+      "BAPPRTHESTORMLANDS",
+      "BAPPRHOUSEBARATHEON"
+    ]
+  },
+  {
+    "application": "ASVTHEREACH",
+    "name": "Tyrell",
+    "environment": "dev",
+    "lockboxId": "b0ae0345-b7b6-4de4-b633-caabb46fa2f9",
+    "ownerContact": {
+      "eid": "MGR925",
+      "emailAddress": "margaery.tyrell@tyrell.com"
+    },
+    "components": [
+      "BAPPRTHEREACH",
+      "BAPPRHOUSETYRELL"
+    ]
+  },
+  {
+    "application": "ASVTHECROWNLANDS",
+    "name": "Targaryen",
+    "environment": "dev",
+    "lockboxId": "b0ae0345-b7b6-4de4-b633-caabb46fa2f9",
+    "ownerContact": {
+      "eid": "EID229",
+      "emailAddress": "daenerys.targaryen@motherofdragons.com"
+    },
+    "components": [
+      "BAPPRTHECROWNLANDS",
+      "BAPPRHOUSETARGARYEN"
+    ]
+  },
+  {
+    "application": "ASVDORNE",
+    "name": "Martel",
+    "environment": "dev",
+    "lockboxId": "6d3db819-2150-4c3c-8419-825df8ed8337",
+    "ownerContact": {
+      "eid": "OBN453",
+      "emailAddress": "oberyn.martel@avoidthebeast.com"
+    },
+    "components": [
+      "BAPPRDORNE",
+      "BAPPRHOUSEMARTELL"
+    ]
+  }
+]
